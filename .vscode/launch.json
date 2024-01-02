@@ -1,0 +1,51 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Calendar0",
+            "request": "launch",
+            "mainClass": "Calendar0",
+            "projectName": "hw03-lidorStudent_a3e4e9d2"
+        },
+        {
+            "type": "java",
+            "name": "Calendar1",
+            "request": "launch",
+            "mainClass": "Calendar1",
+            "projectName": "hw03-lidorStudent_a3e4e9d2"
+        },
+        {
+            "type": "java",
+            "name": "LoanCalc",
+            "request": "launch",
+            "mainClass": "LoanCalc",
+            "projectName": "hw03-lidorStudent_a3e4e9d2",
+            "args": "100000 5 10"
+        },
+        {
+            "type": "java",
+            "name": "LowerCase",
+            "request": "launch",
+            "mainClass": "LowerCase",
+            "projectName": "hw03-lidorStudent_a3e4e9d2",
+            "args": "'TLV to LA: 15 Hours.'"
+        },
+        {
+            "type": "java",
+            "name": "UniqueChars",
+            "request": "launch",
+            "mainClass": "UniqueChars",
+            "projectName": "hw03-lidorStudent_a3e4e9d2"
+        }
+    ]
+}
