@@ -15,7 +15,8 @@
             "name": "Calendar0",
             "request": "launch",
             "mainClass": "Calendar0",
-            "projectName": "hw03-lidorStudent_a3e4e9d2"
+            "projectName": "hw03-lidorStudent_a3e4e9d2",
+            "args": "2020"
         },
         {
             "type": "java",

@@ -23,7 +23,7 @@ public class Calendar0 {
 	// Tests the nDaysInMonth function.
 	private static void nDaysInMonthTest(int year) {
 		for (int month = 1; month <= 12; month++) {
-			System.out.println(month + " has " + nDaysInMonth(month, year) + " days");
+			System.out.println("Month " + month + " has " + nDaysInMonth(month, year) + " days");
 		}
 	}
 
