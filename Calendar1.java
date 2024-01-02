@@ -37,7 +37,17 @@ public class Calendar1 {
 	 // If the month changes, sets the number of days in this month.
 	 // Side effects: changes the static variables dayOfMonth, month, year, dayOfWeek, nDaysInMonth.
 	 private static void advance() {
-		// Replace this comment with your code
+		dayOfWeek = (dayOfWeek % 7) + 1;
+		dayOfMonth++;
+		if (dayOfMonth > nDaysInMonth) {
+			dayOfMonth = 1;
+			month++;
+			if (month > 12) {
+				month = 1;
+				year++;
+			}
+			nDaysInMonth = nDaysInMonth(month, year);
+		}
 	 } 
 		 
     // Returns true if the given year is a leap year, false otherwise.
