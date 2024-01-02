@@ -45,7 +45,8 @@
             "name": "UniqueChars",
             "request": "launch",
             "mainClass": "UniqueChars",
-            "projectName": "hw03-lidorStudent_a3e4e9d2"
+            "projectName": "hw03-lidorStudent_a3e4e9d2",
+            "args": "'yael played the yokelele'"
         }
     ]
 }
