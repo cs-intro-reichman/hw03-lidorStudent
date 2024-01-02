@@ -13,16 +13,13 @@ public class Calendar1 {
 	 * Prints the calendars of all the years in the 20th century. Also prints the  
 	 * number of Sundays that occured on the first day of the month during this period.
 	 */
-	public static void main(String args[]) {
+	public static void main(String[] args) {
 		// Advances the date and the day-of-the-week from 1/1/1900 till 31/12/1999, inclusive.
 	    // Prints each date dd/mm/yyyy in a separate line. If the day is a Sunday, prints "Sunday".
 	    // The following variable, used for debugging purposes, counts how many days were advanced so far.
-	    int debugDaysCounter = 0; 
-	    //// Write the necessary initialization code, and replace the condition
-	    //// of the while loop with the necessary condition 
+	    int debugDaysCounter = 0;  
 		int countSundays = 0;
-	 	while (year <= 1999) {
-	 		//// Write the body of the while 		
+	 	while (year <= 1999) {		
 	 		advance();
 	 		debugDaysCounter++;
 			if (dayOfWeek == 1 && dayOfMonth == 1) {
