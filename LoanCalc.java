@@ -47,6 +47,7 @@ public class LoanCalc {
             iterationCounter++;
         }
         return payment;*/
+		return 0;
     }
     
     /**
@@ -72,6 +73,7 @@ public class LoanCalc {
 			middle = (low + high) / 2;
         }
         return (low + high) / 2;*/
+		return 0;
     }
 	
 	/**
