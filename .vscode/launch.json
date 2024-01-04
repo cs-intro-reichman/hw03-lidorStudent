@@ -40,7 +40,7 @@
             "request": "launch",
             "mainClass": "LoanCalc",
             "projectName": "hw03-lidorStudent_a3e4e9d2",
-            "args": "100000 5 10"
+            "args": "75000 4 24"
         },
         {
             "type": "java",
